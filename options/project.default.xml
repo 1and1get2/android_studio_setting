@@ -1,24 +1,11 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
+      <component name="AndroidDexCompilerConfiguration">
+        <option name="MAX_HEAP_SIZE" value="1024" />
+      </component>
       <component name="CompilerConfiguration">
-        <resourceExtensions />
-        <wildcardResourcePatterns>
-          <entry name="!?*.java" />
-          <entry name="!?*.form" />
-          <entry name="!?*.class" />
-          <entry name="!?*.groovy" />
-          <entry name="!?*.scala" />
-          <entry name="!?*.flex" />
-          <entry name="!?*.kt" />
-          <entry name="!?*.clj" />
-          <entry name="!?*.aj" />
-        </wildcardResourcePatterns>
-        <annotationProcessing>
-          <profile default="true" name="Default" enabled="false">
-            <processorPath useClasspath="true" />
-          </profile>
-        </annotationProcessing>
+        <bytecodeTargetLevel target="1.8" />
       </component>
       <component name="Encoding">
         <file url="PROJECT" charset="UTF-8" />
@@ -96,67 +83,27 @@
                 <id />
               </State>
               <State>
-                <id>Android</id>
-              </State>
-              <State>
-                <id>Android &gt; Lint &gt; Correctness</id>
-              </State>
-              <State>
-                <id>Android &gt; Lint &gt; Performance</id>
-              </State>
-              <State>
-                <id>Class structureJava</id>
-              </State>
-              <State>
-                <id>Code maturity issuesJava</id>
+                <id>Abstraction issuesJava</id>
               </State>
               <State>
                 <id>Java</id>
               </State>
               <State>
-                <id>Java language level migration aidsJava</id>
+                <id>Modularization issuesJava</id>
               </State>
               <State>
-                <id>Javadoc issuesJava</id>
-              </State>
-              <State>
-                <id>Numeric issuesJava</id>
+                <id>Packaging issuesJava</id>
               </State>
               <State>
                 <id>Performance issuesJava</id>
               </State>
-              <State>
-                <id>Probable bugsJava</id>
-              </State>
-              <State>
-                <id>TestNGJava</id>
-              </State>
-              <State>
-                <id>Threading issuesJava</id>
-              </State>
             </expanded-state>
-            <selected-state>
-              <State>
-                <id>Android</id>
-              </State>
-            </selected-state>
           </profile-state>
         </entry>
       </component>
-      <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-        <OptionsSetting value="true" id="Add" />
-        <OptionsSetting value="true" id="Remove" />
-        <OptionsSetting value="true" id="Checkout" />
-        <OptionsSetting value="true" id="Update" />
-        <OptionsSetting value="true" id="Status" />
-        <OptionsSetting value="true" id="Edit" />
-        <ConfirmationsSetting value="0" id="Add" />
-        <ConfirmationsSetting value="0" id="Remove" />
-      </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
       <component name="PropertiesComponent">
-        <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-        <property name="settings.editor.splitter.proportion" value="0.2" />
+        <property name="settings.editor.selected.configurable" value="copyright.profiles" />
         <property name="android.sdk.path" value="$USER_HOME$/Library/Google/Android/sdk" />
         <property name="android.project.structure.last.selected" value="SDK Location" />
         <property name="android.project.structure.proportion" value="0.15" />
@@ -249,6 +196,17 @@
       </component>
       <component name="masterDetails">
         <states>
+          <state key="Copyright.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
           <state key="ProjectJDKs.UI">
             <settings>
               <last-edited>1.8</last-edited>
